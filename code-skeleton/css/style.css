@@ -5,8 +5,80 @@
 
 #c1{
     background-color: #3bff00;
-    color: white;
+    color: black;
     font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#c2{
+    background-color: #00ccff;
+    color: #111;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#c3{
+    background-color: #ff8123;
+    color: #111;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+/* Color Palette 2 */
+
+#head2{
+    font-family: fantasy;
+    text-align: canter;
+}
+
+#c4{
+    background-color: #512d38;
+    color: #111;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px;
+}
+#c5{
+    background-color: #b27092;
+    color: black;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px
+}
+#c6{
+    background-color: #f4bfdb;
+    color: black;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px
+}
+
+/* Color Palette 3 */
+
+#head3{
+    font-family: monospace;
+    text-align: center;
+}
+
+#c7{
+    background-color: #f6bd60;
+    color: black;
+    font-family:monospace;
+    text-align: center;
+    padding: 24px
+}
+#c8{
+    background-color: #f7ede2;
+    color: black;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+#c9{
+    background-color: #f5cac3;
+    color: black;
+    font-family: monospace;
     text-align: center;
     padding: 24px;
 }
