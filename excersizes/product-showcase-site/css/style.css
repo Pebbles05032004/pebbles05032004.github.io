@@ -1,0 +1,25 @@
+.light-container,
+.dark-container,
+.light-container2{
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    margin: 0px;
+    font-family: lucinda sans;
+}
+.image1{
+    width: 50%;
+    margin:0px auto;
+    text-align: center;
+}
+.image2{
+    width:50%;
+    margin: 0px auto;
+    text-align: center;
+}
+.image3{
+    width:50%;
+    margin: 0px auto;
+    text-align: center;
+}
