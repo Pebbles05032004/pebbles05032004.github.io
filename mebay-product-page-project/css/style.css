@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+#three-columns{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-areas:
+    left middle sidebar
+    ;
+}
+#left{
+    padding: 12px;
+}
+#middle{
+    color: black;
+    padding: 24px;
+    align-items: center;
+    text-align: center;
+}
+#sidebar #seller-info-top{
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+#sidebar #sidebar-info-bottom{
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    padding: 8px;
+}
+#header{
+    text-align: center;
+}
+#header a{
+    text-decoration: none;
+}
+#unused{
+    font-weight: bolder;
+}
+#price{
+    padding-left: 8px;
+    display: inline-block;
+    font-size: 40px;;
+}
+#buy-blocks h3{
+    background-color: skyblue;
+    border-radius: 48px;
+    color: black;
+    padding: 4px;
+}
+#buy-blocks h3 a{
+    color: black;
+    text-decoration: none;
+}
+#buy-blocks h3 a:hover{
+    color: black;
+    background-color: skyblue;
+    border-radius: 6px;
+}
