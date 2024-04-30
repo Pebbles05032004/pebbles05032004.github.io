@@ -1,0 +1,39 @@
+/*Sculptor's Haven*/
+/*Angel Ears*/
+/*Halloween Store*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+#header{
+    background-color: #795c34;
+}
+.nav-container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.nav a{
+    color: #efefef;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    transition: background-color 0.5s;
+}
+.nav a:hover{
+    background-color: #6e430e;
+}
+#footer{
+    text-align: center;
+    color: #efefef;
+    background-color: #111;
+    padding: 10px 0px;
+}
