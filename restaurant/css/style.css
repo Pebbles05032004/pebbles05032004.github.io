@@ -8,8 +8,54 @@ body{
     font-family: apple chancery;
     background-image: url(../images/bkgimg.jpg);
 }
+#centered-columns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+    -50deg,
+    #132F20,
+    #144141,
+    #698CA1
+    );
+    height: 350px;
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+    border-radius: 50px;
+}
+#info p{
+    color: #B3EAEF;
+}
+#info h2{
+    color: #FFFFFF;
+}
+#info a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width:100%;
+    padding: 10px;
+    text-align: center;
+    border: 0px solid #498A90;
+    background-color:transparent;
+    transition: 
+        background-color .5s,
+        color .5s;
+}
+#menu h4{
+    padding: 12px;
+}
 #menu{
     position: relative;
+}
+#menu ul{
+    padding: 0px;
 }
 #menu li{
     font-size: medium;
@@ -17,12 +63,14 @@ body{
     list-style-type: none;
 }
 #menu .card4{
+    left: -50px;
+    min-width: 200px;
     position: absolute;
     background-color: white;
     border: 1px solid #231F20;
     border-radius: 12px;
     box-shadow: 4px 4px 4px #231F20;
-    margin: -30px 50000px 0px 0px;
+    margin: -30px 0px 0px 0px;
     padding: 15px 2px;
     opacity: 0;
     visibility: hidden;
@@ -112,7 +160,7 @@ body{
     height: 100vh;
     color: #FFFFFF;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 #mainpage .container{
