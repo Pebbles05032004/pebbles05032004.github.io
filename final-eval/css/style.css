@@ -1,0 +1,119 @@
+*{ 
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: serif;
+    background-image: url(../images/bkgimg.jpg); 
+}
+#header1{
+    padding: 12px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-decoration:underline;
+}
+#menu:hover .card{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+    background-color: black;
+    border: 1px solid lightblue;
+    border-radius: 12px;
+}
+#mainpage{
+    background-size: cover;
+    height: 100vh;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mainpage .container{
+    width: max-content;
+    margin: 0px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+#mainpage h1{
+    font-size: 70px;
+    margin: 0px;
+    text-align: center;
+}
+#mainpage p{
+    margin: 10px 20px 35px;
+    text-align: center;
+}
+#mainpage a{
+    margin: 20px;
+    border: 2px solid #144141;
+    border-radius: 18px;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+    transition:
+        background-color 0.5s,
+        color 0.5s
+    ;
+}
+#mainpage a:hover {
+    background-color: #498A90;
+    text-align: center;
+}
+#centered-column{
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+}
+.card{
+    width: 400px;
+    border-radius: 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color:  #FFFFFF;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.card h2{
+    font-size: 36px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.card p{
+    font-size: 18px;
+    flex: 1;
+    padding: 15px;
+    text-align: center;
+    color: whitesmoke;
+}
+.card a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width:100%;
+    padding: 10px;
+    text-align: center;
+    border: 0px solid #498A90;
+    background-color:transparent;
+    transition: 
+        background-color .5s,
+        color .5s;
+}
+.card a:hover{
+    background-color: #498A90;
+    color: #231F20;
+    border-radius: 0px 0px 12px 12px ;
+}
