@@ -8,6 +8,50 @@ body{
     font-family: apple chancery;
     background-image: url(../images/bkgimg.jpg);
 }
+#menu{
+    position: relative;
+}
+#menu li{
+    font-size: medium;
+    text-align: center;
+    list-style-type: none;
+}
+#menu .card4{
+    position: absolute;
+    background-color: white;
+    border: 1px solid #231F20;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #231F20;
+    margin: -30px 50000px 0px 0px;
+    padding: 15px 2px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-1px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+#menu:hover .card4{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+    background-color: #144141;
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+}
+#menu .card4 li:hover{
+    opacity: 100%;
+    visibility: visible;
+    transform: translateY(0px);
+    background-color: rgb(0, 0, 0);
+    color: #FFFFFF;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+#menu .card4 li:hover a{
+    color: #FFFFFF;
+}
 #navbar{
     background: linear-gradient(
         to bottom,
@@ -125,6 +169,7 @@ body{
     display: flex;
     flex-direction: column;
     color:  #FFFFFF;
+    text-align: center;
 }
 .card img{
     width: 100%;
@@ -170,4 +215,3 @@ body{
     background-color: #FFFFFF;
     padding: 5px 0px;
 }
-/*MENU*/
